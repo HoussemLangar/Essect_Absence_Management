@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home"
+        android:title="Accueil" />
+    <item
+        android:id="@+id/nav_enseignants"
+        android:icon="@drawable/ic_teacher"
+        android:title="Enseignants" />
+    <item
+        android:id="@+id/nav_historique"
+        android:icon="@drawable/ic_file"
+        android:title="Historique" />
+    <item
+        android:id="@+id/nav_rapport"
+        android:icon="@drawable/ic_rapport"
+        android:title="Rapport" />
+
+    <item
+        android:id="@+id/nav_upload"
+        android:icon="@drawable/ic_schedule"
+        android:title="Upload" />
+</menu>

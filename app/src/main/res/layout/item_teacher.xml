@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:gravity="center_vertical">
+
+    <LinearLayout
+        android:layout_width="229dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="start|center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/nameTextView"
+            android:layout_width="177dp"
+            android:layout_height="wrap_content"
+            android:text="Nom de l'enseignant"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/nbAbsenceTextView"
+            android:layout_width="162dp"
+            android:layout_height="wrap_content"
+            android:text="Nombre d'absences"
+            android:textColor="#666"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/showAbsencesButton"
+        android:layout_width="40dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="16dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:contentDescription="@string/show_absences"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_more" />
+
+</LinearLayout>

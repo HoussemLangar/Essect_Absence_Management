@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:background="#EBEBEB"
+    android:elevation="4dp"
+    android:title="Gestion des Absences"
+    android:titleTextColor="@android:color/white"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.0"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:titleTextAppearance="@style/TextAppearance.AppCompat.Large"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="end"
+                android:orientation="horizontal"
+                android:padding="8dp"
+                android:weightSum="5">
+
+                <!-- Home Button -->
+                <ImageButton
+                    android:id="@+id/homeButton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_weight="1"
+                    android:background="?attr/selectableItemBackground"
+                    android:contentDescription="Home"
+                    android:maxWidth="48dp"
+                    android:maxHeight="48dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ic_home" />
+
+                <!-- Enseignants Button -->
+                <ImageButton
+                    android:id="@+id/enseignantsButton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_weight="1"
+                    android:background="?attr/selectableItemBackground"
+                    android:contentDescription="Enseignants"
+                    android:maxWidth="48dp"
+                    android:maxHeight="48dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ic_teacher" />
+
+                <!-- Historique Button -->
+                <ImageButton
+                    android:id="@+id/historiqueButton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_weight="1"
+                    android:background="?attr/selectableItemBackground"
+                    android:contentDescription="Historique"
+                    android:maxWidth="48dp"
+                    android:maxHeight="48dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ic_file" />
+
+                <!-- Rapport Button -->
+                <ImageButton
+                    android:id="@+id/rapportButton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_weight="1"
+                    android:background="?attr/selectableItemBackground"
+                    android:contentDescription="Rapport"
+                    android:maxWidth="48dp"
+                    android:maxHeight="48dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ic_rapport" />
+
+                <!-- Utilisateurs Button -->
+                <ImageButton
+                    android:id="@+id/utilisateursButton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="?attr/selectableItemBackground"
+                    android:contentDescription="Utilisateurs"
+                    android:maxWidth="48dp"
+                    android:maxHeight="48dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ic_users" />
+            </LinearLayout>
+        </androidx.appcompat.widget.Toolbar>

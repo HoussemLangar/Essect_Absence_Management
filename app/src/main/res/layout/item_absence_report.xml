@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:divider="?android:attr/listDivider"
+    android:dividerHeight="1dp">
+
+    <!-- Nom du rapport -->
+    <TextView
+        android:id="@+id/report_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Nom du rapport"
+        android:textSize="16sp" />
+
+    <!-- Bouton pour télécharger le rapport -->
+    <Button
+        android:id="@+id/btn_download"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Télécharger" />
+
+    <!-- Bouton pour supprimer le rapport -->
+    <Button
+        android:id="@+id/btn_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Supprimer" />
+</LinearLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Gestion Absences</string>
+    <string name="logo_desc">Logo application</string>
+    <string name="eye_icon_desc">eye</string>
+    <string name="gestion_absences">Gestion des Absences</string>
+    <string name="gestion_des_absences">Gestion des Absences</string>
+    <string name="show_absences" />
+    <string name="edit" />
+    <string name="delete" />
+</resources>

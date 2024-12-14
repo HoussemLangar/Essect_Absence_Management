@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <ImageButton
+        android:id="@+id/backButton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:contentDescription="Retour"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_retour" />
+
+    <RelativeLayout
+        android:layout_width="224dp"
+        android:layout_height="197dp"
+        android:layout_gravity="center"
+        android:paddingBottom="16dp">
+
+        <ImageView
+            android:id="@+id/profile_image"
+            android:layout_width="126dp"
+            android:layout_height="120dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_default_profile" />
+
+        <ImageButton
+            android:id="@+id/edit_profile_image"
+            android:layout_width="28dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="65dp"
+            android:layout_marginBottom="104dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:contentDescription="Modifier image"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_edit_profil" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:paddingStart="8dp"
+            android:layout_marginStart="66dp"
+            android:text="Supprimer photo de profil"
+            android:textSize="16sp" />
+
+        <ImageButton
+            android:id="@+id/remove_profile_image"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="16dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:contentDescription="Supprimer photo de profil"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_remove" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:paddingBottom="8dp">
+
+        <TextView
+            android:id="@+id/username_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:text="Nom d'utilisateur"
+            android:textSize="16sp" />
+
+        <ImageButton
+            android:id="@+id/edit_username"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:background="?android:attr/selectableItemBackground"
+            android:contentDescription="Modifier nom d'utilisateur"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_edit" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:paddingBottom="8dp">
+
+        <TextView
+            android:id="@+id/phone_number_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:text="Numéro de téléphone"
+            android:textSize="16sp" />
+
+        <ImageButton
+            android:id="@+id/edit_phone_number"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:background="?android:attr/selectableItemBackground"
+            android:contentDescription="Modifier numéro de téléphone"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_edit" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:orientation="horizontal"
+        android:paddingBottom="8dp">
+
+        <TextView
+            android:id="@+id/email_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:text="Email"
+            android:textSize="16sp" />
+
+        <ImageButton
+            android:id="@+id/edit_email"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:background="?android:attr/selectableItemBackground"
+            android:contentDescription="Modifier email"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_edit" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/change_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:text="Changer le mot de passe" />
+
+</LinearLayout>

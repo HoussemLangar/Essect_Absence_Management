@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "605596524118",
+    "project_id": "gestionabsence-36259",
+    "storage_bucket": "gestionabsence-36259.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:605596524118:android:a2d9812423aae1a7b525f7",
+        "android_client_info": {
+          "package_name": "projet.gestionabsence"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0gUv6gBFp7oiDhS-TqPuUwbS_FKLK_Uw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:gravity="center"
+        android:paddingBottom="16dp"
+        android:text="Ajouter une absence"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/teacherLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enseignant"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:paddingBottom="4dp" />
+
+    <Spinner
+        android:id="@+id/teacherSpinner"
+        android:layout_width="378dp"
+        android:layout_height="48dp" />
+
+    <TextView
+        android:id="@+id/dateLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:paddingBottom="4dp" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/dateEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="false"
+        android:hint="Sélectionner la date"
+        android:inputType="none"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:id="@+id/timeLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Heure"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:paddingBottom="4dp" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/timeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="false"
+        android:hint="Sélectionner l'heure"
+        android:inputType="none"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:id="@+id/SalleLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Salle"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:paddingBottom="4dp" />
+
+    <Spinner
+        android:id="@+id/classroomSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/addAbsenceButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Ajouter Absence" />
+
+    <Button
+        android:id="@+id/cancelButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Annuler"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/colorPrimaryDark" />
+
+
+</LinearLayout>
