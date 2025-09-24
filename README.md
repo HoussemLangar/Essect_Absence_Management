@@ -1,33 +1,33 @@
 # 📱 Gestion Absence Essect
 
-Une **application Android** développée en **Kotlin** permettant la gestion des absences au sein d’un établissement.  
-Elle intègre Firebase pour l’authentification et la base de données, ainsi que Cloudinary pour la gestion des fichiers.
+An **Android application** developed in **Kotlin** for managing student absences within an institution.  
+It integrates Firebase for authentication and database management, as well as Cloudinary for file handling.  
 
 ---
 
-## 🚀 Fonctionnalités
+## 🚀 Features
 
-- ✅ Authentification via Firebase (administration, agent & enseignants)  
-- 📊 Gestion et suivi des absences  
-- 👨‍🏫 Interface enseignant : visualisation des absences  
-- 🎓 Interface agent : ajout des absences/ consultation des emplois
-- 🎓 Interface administartion : ajout/consultation des emplois, ajout/consultation des absences, ajout/consultation des enseignants, ajout/consultation des classes
-- ☁️ Intégration **Firebase** (auth, base de données, cloud)  
-- 📷 Stockage et gestion des images avec **Cloudinary**  
+- ✅ Authentication via Firebase (administration, agent & teachers)  
+- 📊 Absence management and tracking  
+- 👨‍🏫 Teacher interface: view absences  
+- 🎓 Agent interface: add absences / view schedules  
+- 🏫 Administration interface: add/view schedules, add/view absences, add/view teachers, add/view classes  
+- ☁️ **Firebase** integration (auth, database, cloud)  
+- 📷 Image storage & management with **Cloudinary**  
 
 ---
 
-## 🛠️ Technologies utilisées
+## 🛠️ Technologies Used
 
-- [Kotlin](https://kotlinlang.org/) – Langage principal  
+- [Kotlin](https://kotlinlang.org/) – Main language  
 - [Android Studio](https://developer.android.com/studio) – IDE  
 - [Gradle Kotlin DSL](https://docs.gradle.org/current/userguide/kotlin_dsl.html) – Build system  
-- [Firebase](https://firebase.google.com/) – Authentification & base de données  
-- [Cloudinary](https://cloudinary.com/) – Gestion des médias  
+- [Firebase](https://firebase.google.com/) – Authentication & database  
+- [Cloudinary](https://cloudinary.com/) – Media management  
 
 ---
 
-## 📂 Structure du projet
+## 📂 Project Structure
 
 ```
 GestionAbsenceEssect/
@@ -35,11 +35,11 @@ GestionAbsenceEssect/
 │   ├── src/main/
 │   │   ├── AndroidManifest.xml
 │   │   ├── java/projet/gestionabsence/
-│   │   │   ├── api/            # Config Cloudinary
-│   │   │   ├── controller/     # Logique de contrôle
-│   │   │   ├── model/          # Modèles (Absence, Classe, Enseignant…)
-│   │   │   └── ui/             # Activités & Fragments
-│   │   └── res/                # Ressources (layouts, drawables…)
+│   │   │   ├── api/            # Cloudinary config
+│   │   │   ├── controller/     # Business logic
+│   │   │   ├── model/          # Models (Absence, Class, Teacher…)
+│   │   │   └── ui/             # Activities & Fragments
+│   │   └── res/                # Resources (layouts, drawables…)
 ├── build.gradle.kts
 ├── settings.gradle.kts
 └── gradle.properties
@@ -47,42 +47,42 @@ GestionAbsenceEssect/
 
 ---
 
-## ⚙️ Installation & Exécution
+## ⚙️ Installation & Setup
 
-### 1. Cloner le repo
+### 1. Clone the repo
 ```bash
 git clone https://github.com/username/GestionAbsenceEssect.git
 cd GestionAbsenceEssect
 ```
 
-### 2. Ouvrir dans Android Studio
-- File → Open → Sélectionner le dossier du projet  
+### 2. Open in Android Studio
+- File → Open → Select the project folder  
 
-### 3. Configurer Firebase
-- Placer ton fichier `google-services.json` dans `app/` (il est déjà inclus pour ce projet)  
-- Vérifier que le projet est bien lié à Firebase  
+### 3. Configure Firebase
+- Place your `google-services.json` file inside the `app/` folder (already included in this project)  
+- Ensure the project is linked to Firebase  
 
-### 4. Lancer l’application
-- Sélectionner un émulateur ou un smartphone Android connecté  
-- Cliquer sur ▶ **Run**  
-
----
-
-## 🔐 Configuration requise
-
-- **Java 17** ou plus  
-- **Android Studio Giraffe ou plus récent**  
-- Connexion Internet (Firebase & Cloudinary)  
+### 4. Run the app
+- Select an emulator or a connected Android device  
+- Click ▶ **Run**  
 
 ---
 
-## 📄 Licence
+## 🔐 Requirements
 
-Ce projet est sous licence MIT – libre à toi de le modifier et l’utiliser.  
+- **Java 17** or higher  
+- **Android Studio Giraffe or newer**  
+- Internet connection (Firebase & Cloudinary)  
 
 ---
 
-## 👤 Auteur
+## 📄 License
 
-Développé par **Houssem LANGAR**  
-📧 Email : houssemlangar3@gmail.com  
+This project is licensed under the MIT License – feel free to modify and use it.  
+
+---
+
+## 👤 Author
+
+Developed by **Houssem LANGAR**  
+📧 Email: houssemlangar3@gmail.com  
