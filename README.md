@@ -51,7 +51,7 @@ GestionAbsenceEssect/
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/username/GestionAbsenceEssect.git
+git clone https://github.com/username/Essect_Absence_Management.git
 cd GestionAbsenceEssect
 ```
 
